@@ -1,0 +1,6 @@
+if(condition){
+    operation 1
+}
+else{
+    operation 2
+}
