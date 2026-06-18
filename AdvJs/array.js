@@ -1,17 +1,14 @@
-// var arr=[1,2,3,5,4,8,7,234,123,34534,121]
-
+var arr=[1,2,3,34534,121]
 // console.log("Old array",arr);
-
-// // arr.push(23)
-// // arr.pop()
-// // arr.shift()
-// // arr.unshift(0)
+// arr.push("Hello")
+// arr.pop()
+// arr.shift()
+// arr.unshift(82645)
 // var length=arr.length
+// console.log(length);
 
-// console.log(arr.indexOf(34534));
-
-
-
+// console.log(arr.indexOf(121));
+// console.log("New array",arr);
 
 
 // ============================================ForEach Function===============================
@@ -24,7 +21,7 @@ var arr=[1,2,3]
 
 // ======================For Each=============================
 
-arr.forEach(value=>console.log("Ravi: ",value*2))
+// arr.forEach(value=>console.log("Ravi: ",value*2))
 
 
 // ======================Map=============================
@@ -32,15 +29,15 @@ arr.forEach(value=>console.log("Ravi: ",value*2))
 // let doubled = arr.map((value)=>{
 //     return value*2;
 // }) 
-// doubled=[2,4,6]
+// // doubled=[2,4,6]
 // console.log("Map",doubled);
 
 
 // ======================Filter=============================
 
-var arr=[1,2,3,5,4,8,7,234,123,34534,121]
+// var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 
-// let filteredArray = arr.filter((value)=>value%2==0);
+// let filteredArray = arr.filter((value)=>value%2!=0);
 // console.log(filteredArray);
 
 // ======================Find=============================
@@ -50,13 +47,13 @@ var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 
 // ======================Some=============================
 
-// let example=arr.some((value)=>value>50000);
+// let example=arr.some((value)=>value>30000);
 // console.log(example);
 
 // ======================Every=============================
 
 // let allEven=arr.every((value)=>value%2==0)
-// let allEven=arr.every((value)=>value<30000)
+// let allEven=arr.every((value)=>value<50000)
 
 // console.log(allEven);
 
@@ -68,10 +65,11 @@ var arr=[1,2,3,5,4,8,7,234,123,34534,121]
 
 // ======================sort()=============================
 
+var arr=[1,1111,2,3,5,4,8,7,234,123,34534,121]
 
 // arr.sort()
 
 // arr.sort((a,b)=>a-b) // Ascending
 // arr.sort((a,b)=>b-a) // Descending
 
-// console.log(arr);
+console.log(arr);
