@@ -1,4 +1,4 @@
-function evenOdd(x) {
+export default function evenOdd(x) {
     if (x % 2 == 0) {
         console.log("Even");
     }
@@ -7,9 +7,7 @@ function evenOdd(x) {
     }
 }
 
-evenOdd(2);
-
-function checkEligibility(age) {
+export function checkEligibility(age) {
     if (age > 18) {
         console.log("Eligible");
     }
@@ -21,5 +19,18 @@ function checkEligibility(age) {
     }
 }
 
-var ageOfOne=17
-var ageOfTwo=97
+export function add(a,b){
+    console.log(a+b);
+}
+export function sub(a,b){
+    console.log(a-b);
+}
+export function mul(a,b){
+    console.log(a*b);
+}
+export function div(a,b){
+    console.log(a/b);
+}
+export function mod(a,b){
+    console.log(a%b);
+}
