@@ -47,7 +47,3 @@
 
 
 // hello(2,3,add);
-
-function ajsgfaksjd(a,b,()={
-    
-})
