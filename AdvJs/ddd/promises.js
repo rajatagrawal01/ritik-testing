@@ -46,7 +46,7 @@
 // async function fetchData() {
 //   try {
 //     let response = await fetch("https://jsonplaceholder.typicode.com/users");
-//     let data = await response.json();
+//     let chammach = await response.json();
     
 //     console.log(data);
 //   } catch (err) {
